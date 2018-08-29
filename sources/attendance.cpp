@@ -99,12 +99,7 @@ void event_handler()
                 // Turns lower case strings in upper case strings
                 transform(names.begin(), names.end(), names.begin() , [](unsigned char c)->unsigned char{ return std::toupper(c); });
                 cout << "---------------------------------------\n" << endl;
-                if(names == "NICHOLAS JEFFREY")
-                {
-                    cout << "Is " << names << " (NICK) present?" << endl;
-                }
-
-                else if( names == "ANDREW GIANOLI")
+                if( names == "ANDREW GIANOLI")
                 {
                     cout << "IS " << names << " (CAVEMAN) present?" << endl;
                 }
@@ -118,13 +113,12 @@ void event_handler()
                 }
                 else if( names == "JACOB FULLER")
                 {
-                    cout << "IS " << names << " (WHIP) present?" << endl;
+                    cout << "IS " << names << " (FREE WHIP) present?" << endl;
                 }
                 else if( names == "JOSH NEIL")
                 {
                     cout << "IS " << names << " (5-0) present?" << endl;
                 }
-
                 else
                 {
                     cout << "Is " << names << " present?" << endl;
